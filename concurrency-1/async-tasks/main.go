@@ -11,6 +11,7 @@ func main() {
 	go task2()
 	go task3()
 	go task4()
+	time.Sleep(time.Second)
 	fmt.Println("Elapsed", time.Since(now))
 }
 
